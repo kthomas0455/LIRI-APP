@@ -21,7 +21,7 @@ if (process.argv[2] == "movie-this") {
 }
 
 function viewtweets() {
-    var rules = { screen_name: 'markmaguire99', count: 20};
+    var rules = { screen_name: 'ihatetwitter99', count: 20};
     user.get('statuses/user_timeline', rules, function (err, tweets, response) {
         if (!err){
             tweets.forEach(element => {
@@ -60,8 +60,6 @@ function viewtweets() {
   request("http://www.omdbapi.com/?apikey=trilogy&t=" + movieTitle, function(error, response, body) {
 
   if(!error && response.statusCode === 200) {
-
-    var responseJson = JSON.parse(body
 
  // I didnt have time to finish the OMDB movie portion of this homework. The instructions were very convoluted, confusing and with aa crazy amount of text. It took me quite some time just to decipher how to get the homewokr started. It was really frustrating.
 
