@@ -61,8 +61,6 @@ function viewtweets() {
 
   if(!error && response.statusCode === 200) {
 
-    var responseJson = JSON.parse(body
-
  // I didnt have time to finish the OMDB movie portion of this homework. The instructions were very convoluted, confusing and with aa crazy amount of text. It took me quite some time just to decipher how to get the homewokr started. It was really frustrating.
 
 if (process.argv[2] == "do-what-it-says") {
